@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-    background-color: #4caf50;
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -11,6 +11,13 @@ export const Button = styled.button`
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+`;
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 `;
 
 export const Form = styled.form`
